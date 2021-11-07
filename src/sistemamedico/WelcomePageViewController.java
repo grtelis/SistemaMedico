@@ -13,7 +13,7 @@ import static sistemamedico.Constants.*;
  * @author Carlos Hernández
  */
 public class WelcomePageViewController implements ActionListener {    
-    JFrame frame = new JFrame();  
+    JFrame frame = new JFrame("Sistema médico");  
     JLabel welcomeLabel = new JLabel(WELCOME_LABEL);
     JButton logInButton = new JButton(LOGIN_TEXT);
     JButton signInButton = new JButton(SIGN_IN_TEXT); 

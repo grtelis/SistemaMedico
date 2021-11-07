@@ -1,7 +1,9 @@
 package sistemamedico;
 
+import java.awt.TextField;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JTextField;
 
 /**
  *
@@ -11,17 +13,17 @@ public class ResultsViewController {
     
     JFrame frame = new JFrame();
     JLabel resultsTitle = new JLabel();
+    JTextField searchTextField = new JTextField();
     ResultsFactory resultsFactory;
     
     ResultsViewController(ResultType type) {
         this.resultsFactory = new ResultsFactory(type);
-        this.constructLabels();
+        this.constructInterface();
         this.addComponentsToMainFrame();
         this.constructMainFrame();        
     }
     
-    private void constructMainFrame() {
-        this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    private void constructMainFrame() {        
         this.frame.setSize(1000, 14000);
         this.frame.setLayout(null);
         this.frame.setVisible(true);
@@ -31,8 +33,9 @@ public class ResultsViewController {
         this.frame.add(this.resultsTitle);
     }
     
-    private void constructLabels() {
+    private void constructInterface() {
         this.resultsTitle = this.resultsFactory.buildResultTile();
+        this.searchTextField = new JTextField();
     }
     
     

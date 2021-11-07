@@ -20,7 +20,6 @@ public class MainPageViewController implements ActionListener {
     JButton doctorsButton = new JButton(DOCTORS);
     JButton patientsButton = new JButton(PATIENTS);
     JButton hospitalsButton = new JButton(HOSPITALS);
-    JButton laboratoriesButton = new JButton(LABORATORIES);
     JButton medicalStudiesButton = new JButton(MEDICAL_STUDIES);
         
     JButton logOutButton = new JButton(LOG_OUT_TEXT);    
@@ -45,8 +44,7 @@ public class MainPageViewController implements ActionListener {
         this.frame.add(this.selectOptionLabel);
         this.frame.add(this.doctorsButton);
         this.frame.add(this.patientsButton);
-        this.frame.add(this.hospitalsButton);
-        this.frame.add(this.laboratoriesButton);
+        this.frame.add(this.hospitalsButton);        
         this.frame.add(this.medicalStudiesButton);
         this.frame.add(this.logOutButton);        
     }
@@ -81,6 +79,24 @@ public class MainPageViewController implements ActionListener {
         }
     }
     
+    private void didTapOnPatientsButton(ActionEvent event) {
+        if(event.getSource() == this.patientsButton) {
+            ResultsViewController resultsVC = new ResultsViewController(ResultType.PATIENT);
+        }
+    }
+    
+    private void didTapOnHospitalsButton(ActionEvent event) {
+        if(event.getSource() == this.hospitalsButton) {
+            ResultsViewController resultsVC = new ResultsViewController(ResultType.HOSPITAL);
+        }
+    }
+    
+    private void didTapOnMedicalStudiesButton(ActionEvent event) {
+        if(event.getSource() == this.medicalStudiesButton) {
+            ResultsViewController resultsVC = new ResultsViewController(ResultType.MEDICAL_STUDY);
+        }
+    }
+    
     private void didTapOnLogOutButton(ActionEvent event) {
         if(event.getSource() == this.logOutButton) {
             this.frame.dispose();
@@ -91,6 +107,9 @@ public class MainPageViewController implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         this.didTapOnDoctorsButton(e);
-        this.didTapOnLogOutButton(e);        
+        this.didTapOnLogOutButton(e);   
+        this.didTapOnPatientsButton(e);
+        this.didTapOnHospitalsButton(e);
+        this.didTapOnMedicalStudiesButton(e);
     }
 }
