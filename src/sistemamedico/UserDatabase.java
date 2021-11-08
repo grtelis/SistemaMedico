@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 /**
  *
- * @author mac
+ * @author Carlos Hernández
  */
 public class UserDatabase {
     

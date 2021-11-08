@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package sistemamedico;
 
 import java.awt.Font;
@@ -30,6 +25,10 @@ public class ResultsFactory {
         this.titleLabel.setFont(new Font(null, Font.BOLD, 35));
     }
     
+    private void constructSearchTextField() {
+        this.searchTextField.setBounds(25, 100, 800, 35);
+    }
+    
     public JLabel buildResultTile() {
         
         switch(resultType) {
@@ -50,11 +49,10 @@ public class ResultsFactory {
             case MEDICAL_STUDY -> {
                 this.titleLabel.setText(MEDICAL_STUDIES);
                 return this.titleLabel;                
-            }
+            }                        
         }
         
         return new JLabel();
     }
-    
     
 }
