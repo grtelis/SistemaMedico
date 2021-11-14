@@ -19,7 +19,7 @@ public class WelcomePageViewController implements ActionListener {
     JButton signInButton = new JButton(SIGN_IN_TEXT); 
     
     
-    WelcomePageViewController() {
+    WelcomePageViewController() {        
         this.constructLabels();
         this.constructButtons();
         this.addComponentsToMainFrame();
@@ -57,7 +57,7 @@ public class WelcomePageViewController implements ActionListener {
     private void didTapOnLogInButton(ActionEvent event) {
         this.frame.dispose();
         if(event.getSource() == this.logInButton) {
-            UserDatabase userDatabase = new UserDatabase();        
+            UserHashMap userDatabase = new UserHashMap();        
             LoginPageViewController loginPage = new LoginPageViewController(userDatabase.logininfo);
         }
     }

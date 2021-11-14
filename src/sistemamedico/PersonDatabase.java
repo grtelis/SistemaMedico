@@ -9,15 +9,13 @@ package sistemamedico;
  *
  * @author Carlos Hernández
  */
-public class UserDatabase {
+public class PersonDatabase {
     
-    //INSERT CONNECTION HERE 
-    
-    void getUser(String withUserName) {
+    void createPerson(String name, String lastNames, String phoneNumber) {
         
     }
     
-    void insertUser(String userName, String password) {
+    void updatePerson(int personId, String name, String lastNames, String phoneNumber) {
         
-    }    
+    }        
 }

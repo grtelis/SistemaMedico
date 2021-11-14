@@ -3,17 +3,31 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/SistemaMedico.java</file>
             <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/ResultsFactory.java</file>
-            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/WelcomePageViewController.java</file>
-            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/MainPageViewController.java</file>
-            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/LoginPageViewController.java</file>
-            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/UserDatabase.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/PatientManager.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/HospitalManager.java</file>
             <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/Main.java</file>
             <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/Constants.java</file>
             <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/ResultsViewController.java</file>
-            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/ResultType.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/UserManager.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/DoctorDatabase.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/PersonDatabase.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/HospitalDatabase.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/PatientForm.java</file>
             <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/SignInPageViewController.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/MedicalStudyDatabase.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/SistemaMedico.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/MedicalStudyForm.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/MedicalSudyManager.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/PatientDatabase.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/HospitalForm.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/DoctorForm.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/MainPageViewController.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/LoginPageViewController.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/UserDatabase.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/DoctorManager.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/ResultType.java</file>
+            <file>file:/Users/mac/Documents/SistemaMedico/src/sistemamedico/UserHashMap.java</file>
         </group>
     </open-files>
 </project-private>

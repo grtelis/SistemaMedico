@@ -39,8 +39,9 @@ public final class Constants {
     public static final String ADD_MEDICAL_STUDY = "Añadir estudio médico";
     public static final String STUDY_TYPE_LABEL = "Tipo de estudio";
     public static final String STUDY_DATE_LABEL = "Fecha del estudio";
-    
-    
+    public static final String UPDATE_TEXT = "Actualizar";
+    public static final String ADD_TEXT = "Añadir";    
+    public static final String SEARCH_TEXT = "Buscar";    
     
     //ERRORS
     public static final String USER_NOT_FOUND_ERROR = "Usuario no encontrado";    

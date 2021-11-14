@@ -9,15 +9,22 @@ package sistemamedico;
  *
  * @author Carlos Hernández
  */
-public class UserDatabase {
+public class HospitalDatabase {
     
-    //INSERT CONNECTION HERE 
-    
-    void getUser(String withUserName) {
+    void createHospital(String name, String type) {
         
     }
     
-    void insertUser(String userName, String password) {
+    void fetchHospital(String withName) {
         
-    }    
+    }
+    
+    void updateHospital(int hospitalId, String name, String type) {
+        
+    }
+    
+    void deleteHospital(int hospitalId) {
+        
+    }
+    
 }
