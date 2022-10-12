@@ -1,10 +1,5 @@
 package sistemamedico;
 
-/**
- *
- * @author Carlos Hernández
- */
-
-enum ResultType {
+public enum ResultType {
     DOCTOR, PATIENT, HOSPITAL, MEDICAL_STUDY
 }

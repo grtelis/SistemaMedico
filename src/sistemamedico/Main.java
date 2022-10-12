@@ -1,14 +1,11 @@
 package sistemamedico;
+import views.WelcomePageViewController;
 
-/**
- *
- * @author Carlos Hernández
- */
 public class Main {
     
     public static void main (String [] args) {
                                      
-        WelcomePageViewController welcomePage = new WelcomePageViewController();
+        new WelcomePageViewController();
         
     }
 }

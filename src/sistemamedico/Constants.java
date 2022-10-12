@@ -1,9 +1,5 @@
 package sistemamedico;
 
-/**
- *
- * @author Carlos Hernández
- */
 public final class Constants {
     
     //TEXTS 
@@ -34,6 +30,7 @@ public final class Constants {
     public static final String WEIGHT_LABEL = "Peso";
     public static final String SIZE_LABEL = "Talla";
     public static final String SUFFERING_LABEL = "Padecimiento";
+    public static final String STUDIES_NUMBER_LABEL = "Número de estudios";
     public static final String ADD_HOSPITAL = "Añadir hospital";
     public static final String TYPE_LABEL = "Tipo";
     public static final String ADD_MEDICAL_STUDY = "Añadir estudio médico";
@@ -41,7 +38,9 @@ public final class Constants {
     public static final String STUDY_DATE_LABEL = "Fecha del estudio";
     public static final String UPDATE_TEXT = "Actualizar";
     public static final String ADD_TEXT = "Añadir";    
-    public static final String SEARCH_TEXT = "Buscar";    
+    public static final String SEARCH_TEXT = "Buscar";
+    public static final String DELETE_TEXT = "Borrar";
+    public static final String PATIENT_ID_TEXT = "Id del paciente";    
     
     //ERRORS
     public static final String USER_NOT_FOUND_ERROR = "Usuario no encontrado";    
